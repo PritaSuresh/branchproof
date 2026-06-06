@@ -1,0 +1,11 @@
+# Context is only work/compatibility-wheels, never repositories or credentials.
+ARG BASE_IMAGE=branchproof-sandbox:blind-v2
+FROM ${BASE_IMAGE}
+USER 0:0
+COPY *.whl /opt/compatibility-wheels/
+COPY requirements.lock /opt/compatibility.lock
+RUN pip install --no-index --no-deps --require-hashes \
+    --find-links=/opt/compatibility-wheels -r /opt/compatibility.lock \
+    && pip check
+USER 65534:65534
+WORKDIR /tmp

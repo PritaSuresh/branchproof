@@ -1,0 +1,9 @@
+# Build context: work/blind-wheels (only the pinned wheel, no repository/secrets).
+ARG BASE_IMAGE=hardener-sandbox:tests-v1
+FROM ${BASE_IMAGE}
+USER 0:0
+COPY pyhumps-3.8.0-py3-none-any.whl /opt/pyhumps-3.8.0-py3-none-any.whl
+RUN echo '060e1954d9069f428232a1adda165db0b9d8dfdce1d265d36df7fbff540acfd6  /opt/pyhumps-3.8.0-py3-none-any.whl' | sha256sum -c - \
+    && pip install --no-index --no-deps /opt/pyhumps-3.8.0-py3-none-any.whl
+USER 65534:65534
+WORKDIR /tmp
