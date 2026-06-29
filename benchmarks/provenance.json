@@ -1,0 +1,89 @@
+{
+  "dataset_sha256": "5cf63caefba3bffe6411bcb0860007ebf113a719273f05f31415e5487bd1282d",
+  "sources": {
+    "python-utils": {
+      "url": "https://github.com/WoLpH/python-utils.git",
+      "revision": "847f6adf33266c6c375f0ed3737e48f11f3e3c11",
+      "file_hashes_sha256": "21b97b2a723e37249727c6a8ded623d77fb0ddb522bbfc010d97ab8a8115727d",
+      "licences": {
+        "LICENSE": "Copyright (c) 2016, Rick van Hattem <wolph@wol.ph>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
+      },
+      "baseline_runs": [
+        {
+          "passed": true,
+          "counts": {
+            "passed": 374,
+            "failed": 0,
+            "error": 0,
+            "skipped": 0
+          }
+        },
+        {
+          "passed": true,
+          "counts": {
+            "passed": 374,
+            "failed": 0,
+            "error": 0,
+            "skipped": 0
+          }
+        }
+      ]
+    },
+    "python-string-utils": {
+      "url": "https://github.com/daveoncode/python-string-utils.git",
+      "revision": "d903db3c24de35c5cb7e1229ebbcc19775a952a8",
+      "file_hashes_sha256": "5cb995d0da0dee83563986c28d08bb3da372109502caf0c11f22e0fb81d77664",
+      "licences": {
+        "LICENSE": "The MIT License (MIT)\n\nCopyright (c) 2016-2020 Davide Zanotti\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n"
+      },
+      "baseline_runs": [
+        {
+          "passed": true,
+          "counts": {
+            "passed": 407,
+            "failed": 0,
+            "error": 0,
+            "skipped": 0
+          }
+        },
+        {
+          "passed": true,
+          "counts": {
+            "passed": 407,
+            "failed": 0,
+            "error": 0,
+            "skipped": 0
+          }
+        }
+      ]
+    },
+    "python-slugify": {
+      "url": "https://github.com/un33k/python-slugify.git",
+      "revision": "f0010f94c853053daa5a5591cc67228b811c0e34",
+      "file_hashes_sha256": "7199be72fd9da5e340263ca12a4f670afefe1dde24b2dffdb0300ebd1d354b89",
+      "licences": {
+        "LICENSE": "The MIT License\n\nCopyright (c) Val Neekman @ Neekware Inc. http://neekware.com\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+      },
+      "baseline_runs": [
+        {
+          "passed": true,
+          "counts": {
+            "passed": 132,
+            "failed": 0,
+            "error": 0,
+            "skipped": 1
+          }
+        },
+        {
+          "passed": true,
+          "counts": {
+            "passed": 132,
+            "failed": 0,
+            "error": 0,
+            "skipped": 1
+          }
+        }
+      ]
+    }
+  }
+}
